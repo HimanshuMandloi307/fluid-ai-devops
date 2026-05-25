@@ -201,3 +201,4 @@ kubectl rollout undo deployment/fluid-app
 # Delete cluster
 kind delete cluster --name fluid-demo
 ```
+# deployment test

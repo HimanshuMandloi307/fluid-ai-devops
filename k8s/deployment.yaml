@@ -23,7 +23,8 @@ spec:
     spec:
       containers:
         - name: fluid-app
-          image: hmandloi346/fluid-ai-devops:latest  # replaced by CI/CD
+          image: himanshumandloi307/fluid-ai-devops:latest  # replaced by CI/CD
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
           envFrom:
